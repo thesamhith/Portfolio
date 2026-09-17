@@ -1,14 +1,14 @@
 title: "Samhith Konidena | Data Analyst"
 description: "Data analyst portfolio focused on turning business questions into clear, useful decisions."
 url: "https://thesamhith.github.io"
-baseurl: ""
-repository: "thesamhith/thesamhith.github.io"
+baseurl: "/Portfolio"
+repository: "thesamhith/portfolio"
 author:
   name: "Samhith Konidena"
   email: "thesamhith@gmail.com"
   linkedin: "https://www.linkedin.com/in/samhith-konidena-765b0112a"
   github: "https://github.com/thesamhith"
-  profile_image: "/assets/img/profile.jpg"
+  profile_image: { { site.author.profile_image | relative_url } }
 
 analytics:
   goatcounter_endpoint: "https://samhith-portfolio.goatcounter.com/count"
