@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">GrowEasy Marketing Insights dashboard thumbnail</title>
+  <desc id="desc">Abstract customer-segment scatter clusters graphic.</desc>
+  <rect width="1200" height="700" fill="#1c1611"/>
+  <g stroke="#9dccb0" stroke-width="1" opacity=".18">
+    <path d="M0 140H1200M0 260H1200M0 380H1200M0 500H1200"/>
+    <path d="M170 0V700M340 0V700M510 0V700M680 0V700M850 0V700M1020 0V700"/>
+  </g>
+  <g fill="#d5a45c" opacity=".85">
+    <circle cx="830" cy="160" r="26"/>
+    <circle cx="880" cy="210" r="14"/>
+    <circle cx="790" cy="220" r="10"/>
+  </g>
+  <g fill="#f08a5f" opacity=".85">
+    <circle cx="990" cy="330" r="32"/>
+    <circle cx="1050" cy="290" r="14"/>
+    <circle cx="1030" cy="380" r="10"/>
+  </g>
+  <g fill="#9dccb0" opacity=".85">
+    <circle cx="900" cy="500" r="20"/>
+    <circle cx="960" cy="540" r="12"/>
+    <circle cx="850" cy="550" r="9"/>
+  </g>
+  <text x="70" y="90" fill="#9dccb0" font-family="monospace" font-size="22" letter-spacing="4">TABLEAU / CUSTOMER SEGMENTATION</text>
+  <text x="70" y="180" fill="#f5f6f1" font-family="Arial, sans-serif" font-size="64" font-weight="700">GrowEasy</text>
+  <text x="70" y="250" fill="#f5f6f1" font-family="Arial, sans-serif" font-size="64" font-weight="700">Marketing</text>
+  <text x="72" y="315" fill="#f08a5f" font-family="monospace" font-size="24">SPENDING · EDUCATION · TARGETING</text>
+  <text x="70" y="650" fill="#f5f6f1" font-family="monospace" font-size="18" opacity=".8">SEGMENTATION  /  CAMPAIGN TARGETING</text>
+</svg>

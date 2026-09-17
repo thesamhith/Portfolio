@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Samhith Konidena data analyst portfolio</title>
+  <desc id="desc">A dark green social preview graphic for Samhith Konidena's data analyst portfolio.</desc>
+  <rect width="1200" height="630" fill="#121916"/>
+  <g stroke="#9dccb0" stroke-width="1" opacity=".14"><path d="M0 105H1200M0 210H1200M0 315H1200M0 420H1200M0 525H1200"/><path d="M100 0V630M200 0V630M300 0V630M400 0V630M500 0V630M600 0V630M700 0V630M800 0V630M900 0V630M1000 0V630M1100 0V630"/></g>
+  <path d="M690 540 C770 460 790 470 850 370 S970 300 1125 105" fill="none" stroke="#f08a5f" stroke-width="10"/>
+  <path d="M720 560 C820 500 875 510 930 430 S1030 390 1160 300" fill="none" stroke="#9dccb0" stroke-width="3" opacity=".8"/>
+  <circle cx="930" cy="250" r="110" fill="none" stroke="#d5a45c" stroke-width="2" opacity=".75"/><circle cx="930" cy="250" r="72" fill="none" stroke="#d5a45c" stroke-width="1" opacity=".55"/>
+  <text x="72" y="92" fill="#9dccb0" font-family="monospace" font-size="22" letter-spacing="5">SAMHITH KONIDENA / PORTFOLIO</text>
+  <text x="72" y="240" fill="#f5f6f1" font-family="Arial, sans-serif" font-size="78" font-weight="700">Data analyst</text>
+  <text x="72" y="330" fill="#f5f6f1" font-family="Arial, sans-serif" font-size="78" font-weight="700">who finds the signal.</text>
+  <text x="76" y="430" fill="#f08a5f" font-family="monospace" font-size="24">SQL  /  PYTHON  /  BUSINESS INSIGHT</text>
+  <text x="76" y="550" fill="#9dccb0" font-family="monospace" font-size="18" letter-spacing="2">PROJECTS · EXPERIENCE · ANALYSIS</text>
+</svg>

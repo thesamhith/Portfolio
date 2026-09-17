@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">KMac grocery inflation analysis thumbnail</title>
+  <desc id="desc">Abstract grocery price trend graphic with the text Home Alone Grocery-Run Analysis.</desc>
+  <rect width="1200" height="700" fill="#17221f"/>
+  <path d="M0 560 C150 470 220 520 350 410 S600 350 730 300 S950 160 1200 220" fill="none" stroke="#db6e45" stroke-width="12"/>
+  <path d="M0 610 C190 520 270 590 410 480 S650 430 790 370 S990 270 1200 290" fill="none" stroke="#9dccb0" stroke-width="4" opacity=".8"/>
+  <g stroke="#9dccb0" stroke-width="1" opacity=".18"><path d="M0 140H1200M0 260H1200M0 380H1200M0 500H1200"/><path d="M170 0V700M340 0V700M510 0V700M680 0V700M850 0V700M1020 0V700"/></g>
+  <circle cx="920" cy="210" r="112" fill="none" stroke="#d5a45c" stroke-width="2" opacity=".8"/><circle cx="920" cy="210" r="78" fill="none" stroke="#d5a45c" stroke-width="1" opacity=".6"/>
+  <text x="70" y="90" fill="#9dccb0" font-family="monospace" font-size="22" letter-spacing="4">KMAC / DATA STORY</text>
+  <text x="70" y="180" fill="#f5f6f1" font-family="Arial, sans-serif" font-size="64" font-weight="700">Grocery-Run</text>
+  <text x="70" y="250" fill="#f5f6f1" font-family="Arial, sans-serif" font-size="64" font-weight="700">Analysis</text>
+  <text x="72" y="315" fill="#f08a5f" font-family="monospace" font-size="24">1990 → 2026  /  INFLATION</text>
+  <text x="70" y="650" fill="#f5f6f1" font-family="monospace" font-size="18" opacity=".8">BASE CART  $20.83</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Titanic survival analysis thumbnail</title>
+  <desc id="desc">Abstract survival-rate bar comparison graphic with the text Titanic Survival Analysis.</desc>
+  <rect width="1200" height="700" fill="#111b22"/>
+  <g stroke="#9dccb0" stroke-width="1" opacity=".18">
+    <path d="M0 140H1200M0 260H1200M0 380H1200M0 500H1200"/>
+    <path d="M170 0V700M340 0V700M510 0V700M680 0V700M850 0V700M1020 0V700"/>
+  </g>
+  <g>
+    <rect x="850" y="470" width="60" height="130" fill="#3a4d52"/>
+    <rect x="925" y="380" width="60" height="220" fill="#3a4d52"/>
+    <rect x="1000" y="290" width="60" height="310" fill="#d5a45c"/>
+    <text x="850" y="460" fill="#9dccb0" font-family="monospace" font-size="16">3rd</text>
+    <text x="925" y="370" fill="#9dccb0" font-family="monospace" font-size="16">2nd</text>
+    <text x="1000" y="280" fill="#d5a45c" font-family="monospace" font-size="16">1st</text>
+  </g>
+  <text x="70" y="90" fill="#9dccb0" font-family="monospace" font-size="22" letter-spacing="4">TITANIC / SURVIVAL ANALYSIS</text>
+  <text x="70" y="180" fill="#f5f6f1" font-family="Arial, sans-serif" font-size="64" font-weight="700">Survival</text>
+  <text x="70" y="250" fill="#f5f6f1" font-family="Arial, sans-serif" font-size="64" font-weight="700">Analysis</text>
+  <text x="72" y="315" fill="#d5a45c" font-family="monospace" font-size="24">CLASS · SEX · AGE  /  LOGISTIC REGRESSION</text>
+  <text x="70" y="650" fill="#f5f6f1" font-family="monospace" font-size="18" opacity=".8">891 PASSENGERS  /  79% TEST ACCURACY</text>
+</svg>

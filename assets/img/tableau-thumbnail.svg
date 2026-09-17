@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#0D1611"/>
+  
+  <!-- Subtle Grid Lines -->
+  <g stroke="#ffffff" stroke-width="0.5" opacity="0.07">
+    <line x1="100" y1="0" x2="100" y2="500" />
+    <line x1="200" y1="0" x2="200" y2="500" />
+    <line x1="300" y1="0" x2="300" y2="500" />
+    <line x1="400" y1="0" x2="400" y2="500" />
+    <line x1="500" y1="0" x2="500" y2="500" />
+    <line x1="600" y1="0" x2="600" y2="500" />
+    <line x1="700" y1="0" x2="700" y2="500" />
+    
+    <line x1="0" y1="100" x2="800" y2="100" />
+    <line x1="0" y1="200" x2="800" y2="200" />
+    <line x1="0" y1="300" x2="800" y2="300" />
+    <line x1="0" y1="400" x2="800" y2="400" />
+  </g>
+
+  <!-- Typography / Labels -->
+  <!-- Top Tech Metadata -->
+  <text x="60" y="70" font-family="'Courier New', Courier, monospace" font-size="12" fill="#8E9B94" letter-spacing="3" font-weight="bold">TABLEAU / PORTFOLIO PROJECT</text>
+  
+  <!-- Main Title -->
+  <text x="60" y="140" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" fill="#FFFFFF" letter-spacing="-0.5">Data Insights &amp;<tspan x="60" dy="52">Visualizations</tspan></text>
+  
+  <!-- Sub-attributes -->
+  <text x="60" y="270" font-family="'Courier New', Courier, monospace" font-size="12" fill="#DDA15E" letter-spacing="2" font-weight="bold">DASHBOARDS • ANALYTICS • BI</text>
+
+  <!-- Lower Metadata / Tech Stack -->
+  <text x="60" y="440" font-family="'Courier New', Courier, monospace" font-size="11" fill="#607066" letter-spacing="1.5" font-weight="bold">SUPERSTORE DATASET / INSIGHT GENERATION</text>
+
+  <!-- Decorative Minimalist Chart / Data Art Graphic (Right Side) -->
+  <g transform="translate(480, 160)">
+    <!-- Abstract Bar Element 1 -->
+    <rect x="0" y="140" width="30" height="80" rx="3" fill="#4B6554" />
+    <!-- Abstract Bar Element 2 -->
+    <rect x="42" y="90" width="30" height="130" rx="3" fill="#60806C" />
+    <!-- Abstract Bar Element 3 -->
+    <rect x="84" y="50" width="30" height="170" rx="3" fill="#2E7D5C" />
+    <!-- Highlight Accent Bar (Tableau Orange/Amber tone) -->
+    <rect x="126" y="0" width="30" height="220" rx="3" fill="#E4A054" />
+    <!-- Abstract Bar Element 5 -->
+    <rect x="168" y="70" width="30" height="150" rx="3" fill="#42574A" />
+
+    <!-- Scatter Dots / Data Sparks above the bars -->
+    <circle cx="20" cy="-40" r="2.5" fill="#FFFFFF" opacity="0.4"/>
+    <circle cx="65" cy="-25" r="4" fill="#FFFFFF" opacity="0.3"/>
+    <circle cx="110" cy="-55" r="3" fill="#FFFFFF" opacity="0.6"/>
+    <circle cx="140" cy="-15" r="2" fill="#FFFFFF" opacity="0.5"/>
+    <circle cx="185" cy="-45" r="3.5" fill="#FFFFFF" opacity="0.3"/>
+  </g>
+</svg>

@@ -1,0 +1,71 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="700" rx="28" fill="#E9EEE8"></rect>
+
+  <!-- subtle grid -->
+  <path d="M80 140H1120" stroke="#D9DFD8"></path>
+  <path d="M80 280H1120" stroke="#D9DFD8"></path>
+  <path d="M80 420H1120" stroke="#D9DFD8"></path>
+  <path d="M80 560H1120" stroke="#D9DFD8"></path>
+
+  <!-- left node -->
+  <rect x="110" y="245" width="230" height="170" rx="20" fill="#FFFFFF" stroke="#D9DFD8" stroke-width="3"></rect>
+
+  <!-- coffee cup -->
+  <path d="M165 285H270V350C270 388 247 410 218 410C189 410 165 388 165 350V285Z" fill="#DB6E45"></path>
+  <path d="M270 302H289C310 302 322 317 322 336C322 355 310 370 289 370H270" stroke="#DB6E45" stroke-width="14" stroke-linecap="round"></path>
+  <path d="M190 265C183 250 194 237 190 220" stroke="#2C6554" stroke-width="7" stroke-linecap="round"></path>
+  <path d="M225 265C218 250 229 237 225 220" stroke="#2C6554" stroke-width="7" stroke-linecap="round"></path>
+
+  <!-- connection -->
+  <path d="M340 330H455" stroke="#2C6554" stroke-width="5" stroke-linecap="round"></path>
+  <path d="M440 315L455 330L440 345" stroke="#2C6554" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path>
+
+  <!-- API node -->
+  <rect x="455" y="215" width="290" height="230" rx="24" fill="#17221F"></rect>
+
+  <text x="600" y="285" text-anchor="middle" fill="#F5F6F1" font-family="monospace" font-size="26" font-weight="500" letter-spacing="3">
+    FASTAPI
+  </text>
+
+  <text x="600" y="340" text-anchor="middle" fill="#F08A5F" font-family="monospace" font-size="20">
+    REST API
+  </text>
+
+  <line x1="515" y1="375" x2="685" y2="375" stroke="#30403A" stroke-width="2"></line>
+
+  <text x="600" y="410" text-anchor="middle" fill="#A9B6AE" font-family="monospace" font-size="16">
+    PYDANTIC
+  </text>
+
+  <!-- connections to CRUD -->
+  <path d="M745 270H830" stroke="#2C6554" stroke-width="5" stroke-linecap="round"></path>
+  <path d="M815 255L830 270L815 285" stroke="#2C6554" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path>
+
+  <path d="M745 330H830" stroke="#2C6554" stroke-width="5" stroke-linecap="round"></path>
+  <path d="M815 315L830 330L815 345" stroke="#2C6554" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path>
+
+  <path d="M745 390H830" stroke="#2C6554" stroke-width="5" stroke-linecap="round"></path>
+  <path d="M815 375L830 390L815 405" stroke="#2C6554" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path>
+
+  <!-- CRUD labels -->
+  <rect x="850" y="235" width="220" height="55" rx="12" fill="#FFFFFF" stroke="#D9DFD8" stroke-width="2"></rect>
+  <text x="960" y="270" text-anchor="middle" fill="#2C6554" font-family="monospace" font-size="17">GET · READ</text>
+
+  <rect x="850" y="305" width="220" height="55" rx="12" fill="#FFFFFF" stroke="#D9DFD8" stroke-width="2"></rect>
+  <text x="960" y="340" text-anchor="middle" fill="#DB6E45" font-family="monospace" font-size="17">POST · CREATE</text>
+
+  <rect x="850" y="375" width="220" height="55" rx="12" fill="#FFFFFF" stroke="#D9DFD8" stroke-width="2"></rect>
+  <text x="960" y="410" text-anchor="middle" fill="#2C6554" font-family="monospace" font-size="17">PUT · UPDATE</text>
+
+  <rect x="850" y="445" width="220" height="55" rx="12" fill="#FFFFFF" stroke="#D9DFD8" stroke-width="2"></rect>
+  <text x="960" y="480" text-anchor="middle" fill="#DB6E45" font-family="monospace" font-size="17">DELETE · REMOVE</text>
+
+  <!-- footer label -->
+  <text x="110" y="600" fill="#62716B" font-family="monospace" font-size="18" letter-spacing="2">
+    BARISTA BREWS API
+  </text>
+
+  <text x="1090" y="600" text-anchor="end" fill="#62716B" font-family="monospace" font-size="18">
+    PYTHON · FASTAPI
+  </text>
+</svg>
