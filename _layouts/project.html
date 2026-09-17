@@ -1,48 +1,139 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{{ page.title }} · {{ site.author.name }}</title>
-    <meta name="description" content="{{ page.description }}">
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="{{ page.title }} · {{ site.author.name }}">
-    <meta property="og:description" content="{{ page.description }}">
-    <meta property="og:url" content="{{ page.url | absolute_url }}">
-    <meta property="og:image" content="{{ '/assets/img/social-preview.svg' | absolute_url }}">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="{{ page.title }} · {{ site.author.name }}">
-    <meta name="twitter:description" content="{{ page.description }}">
-    <meta name="twitter:image" content="{{ '/assets/img/social-preview.svg' | absolute_url }}">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-    <link rel="icon" href="{{ '/assets/img/favicon.svg?v=2' | relative_url }}" type="image/svg+xml">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-    {% if site.analytics.goatcounter_endpoint != "" %}<script data-goatcounter="{{ site.analytics.goatcounter_endpoint }}" async src="//gc.zgo.at/count.js"></script>{% endif %}
+    <meta name="description" content="{{ page.description }}" />
+    <meta property="og:type" content="article" />
+    <meta
+      property="og:title"
+      content="{{ page.title }} · {{ site.author.name }}"
+    />
+    <meta property="og:description" content="{{ page.description }}" />
+    <meta property="og:url" content="{{ page.url | absolute_url }}" />
+    <meta
+      property="og:image"
+      content="{{ '/assets/img/social-preview.svg' | absolute_url }}"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="{{ page.title }} · {{ site.author.name }}"
+    />
+    <meta name="twitter:description" content="{{ page.description }}" />
+    <meta
+      name="twitter:image"
+      content="{{ '/assets/img/social-preview.svg' | absolute_url }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ '/assets/css/style.css' | relative_url }}"
+    />
+    <link
+      rel="icon"
+      href="{{ '/assets/img/favicon.svg?v=2' | relative_url }}"
+      type="image/svg+xml"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    {% if site.analytics.goatcounter_endpoint != "" %}
+    <script
+      data-goatcounter="{{ site.analytics.goatcounter_endpoint }}"
+      async
+      src="//gc.zgo.at/count.js"
+    ></script>
+    {% endif %}
   </head>
   <body>
-    <header class="site-header"><div class="container nav-wrap"><a class="brand" href="{{ '/' | relative_url }}">{{ site.author.name }}<span>.</span></a><button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch to dark mode" aria-pressed="false"><span aria-hidden="true">☾</span></button><nav aria-label="Main navigation"><a href="{{ '/projects/' | relative_url }}">All projects</a><a href="{{ '/about/' | relative_url }}">About</a></nav></div></header>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="{{ '/' | relative_url }}"
+          >{{ site.author.name }}<span>.</span></a
+        ><button
+          class="theme-toggle"
+          type="button"
+          data-theme-toggle
+          aria-label="Switch to dark mode"
+          aria-pressed="false"
+        >
+          <span aria-hidden="true">☾</span>
+        </button>
+        <nav aria-label="Main navigation">
+          <a href="{{ '/projects/' | relative_url }}">All projects</a
+          ><a href="{{ '/about/' | relative_url }}">About</a>
+        </nav>
+      </div>
+    </header>
     <main class="container">
       <section class="project-hero">
-        <a class="back-link" href="{{ '/projects/' | relative_url }}">← All projects</a>
+        <a class="back-link" href="{{ '/projects/' | relative_url }}"
+          >← All projects</a
+        >
         <p class="eyebrow">{{ page.tools }}</p>
         <h1>{{ page.title }}</h1>
         <p class="project-hero__lede">{{ page.description }}</p>
-        <div class="project-links"><a class="button button--primary" href="{{ page.repository }}">View repository <span aria-hidden="true">↗</span></a>{% if page.dashboard %}<a class="button button--secondary" href="{{ page.dashboard }}">View dashboard <span aria-hidden="true">↗</span></a>{% endif %}</div>
+        <div class="project-links">
+          <a class="button button--primary" href="{{ page.repository }}"
+            >View repository <span aria-hidden="true">↗</span></a
+          >{% if page.dashboard %}<a
+            class="button button--secondary"
+            href="{{ page.dashboard }}"
+            >View dashboard <span aria-hidden="true">↗</span></a
+          >{% endif %}
+        </div>
       </section>
       {% if page.metrics %}
       <section class="project-metrics" aria-label="Project metrics">
-        {% for metric in page.metrics %}<div><span>{{ metric.label }}</span><strong>{{ metric.value }}</strong></div>{% endfor %}
+        {% for metric in page.metrics %}
+        <div>
+          <span>{{ metric.label }}</span><strong>{{ metric.value }}</strong>
+        </div>
+        {% endfor %}
       </section>
       {% endif %}
       <section class="project-details">
-        {% if page.demonstrates %}<div><p class="eyebrow">What this demonstrates</p><ul class="clean-list">{% for item in page.demonstrates %}<li>{{ item }}</li>{% endfor %}</ul></div>{% endif %}
-        {% if page.role %}<div><p class="eyebrow">My role</p><p class="muted">{{ page.role }}</p></div>{% endif %}
+        {% if page.demonstrates %}
+        <div>
+          <p class="eyebrow">What this demonstrates</p>
+          <ul class="clean-list">
+            {% for item in page.demonstrates %}
+            <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+        {% endif %} {% if page.role %}
+        <div>
+          <p class="eyebrow">My role</p>
+          <p class="muted">{{ page.role }}</p>
+        </div>
+        {% endif %}
       </section>
-      <article class="prose project-prose">{{ content }}</article>
-      {% if page.lessons %}<section class="project-lesson"><p class="eyebrow">Takeaway</p><p>{{ page.lessons }}</p></section>{% endif %}
+      <article
+        class="prose project-prose{% if page.name == 'tableau' %} project-prose--wide{% endif %}"
+      >
+        {{ content }}
+      </article>
+      {% if page.lessons %}
+      <section class="project-lesson">
+        <p class="eyebrow">Takeaway</p>
+        <p>{{ page.lessons }}</p>
+      </section>
+      {% endif %}
     </main>
-    <footer class="site-footer"><div class="container footer-wrap"><p>© {{ 'now' | date: '%Y' }} {{ site.author.name }}</p><div class="footer-links"><a href="{{ site.author.github }}">GitHub</a><a href="mailto:{{ site.author.email }}">Email</a></div></div></footer><script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
+    <footer class="site-footer">
+      <div class="container footer-wrap">
+        <p>© {{ 'now' | date: '%Y' }} {{ site.author.name }}</p>
+        <div class="footer-links">
+          <a href="{{ site.author.github }}">GitHub</a
+          ><a href="mailto:{{ site.author.email }}">Email</a>
+        </div>
+      </div>
+    </footer>
+    <script src="{{ '/assets/js/theme.js' | relative_url }}"></script>
   </body>
 </html>

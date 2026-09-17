@@ -543,6 +543,12 @@ p {
 .project-prose {
   padding: 72px 0 120px;
 }
+
+.project-prose--wide {
+  max-width: none;
+  width: 100%;
+}
+
 .site-footer {
   border-top: 1px solid var(--line);
   color: var(--muted);
@@ -850,6 +856,7 @@ p {
   border: 1px solid var(--line);
   background: var(--card);
   overflow: hidden;
+  transition: border-color 0.2s ease;
 }
 
 .tableau-card__thumbnail {
@@ -875,8 +882,6 @@ p {
   display: flex;
   flex-direction: column;
   flex: 1;
-}
-  transition: border-color 0.2s ease;
 }
 
 .tableau-card:hover {
@@ -997,7 +1002,6 @@ p {
   color: var(--green);
 }
 
-
 /* Project filters */
 
 .project-filter {
@@ -1015,7 +1019,7 @@ p {
   color: var(--muted);
   padding: 9px 15px;
   font-family: var(--mono);
-  font-size: 0.80rem;
+  font-size: 0.8rem;
   cursor: pointer;
   transition:
     color 0.2s ease,
