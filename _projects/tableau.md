@@ -1,167 +1,81 @@
 ---
-layout: default
+category: Business Intelligence
+layout: project
 title: Tableau Dashboards
-permalink: /tableau/
 name: tableau
 summary: A collection of interactive Tableau dashboards exploring sales, marketing, customer behaviour, and business performance.
 description: A selection of Tableau work focused on turning business questions into interactive dashboards and clear visual stories.
-tools: Data Visualisation, Business Intelligence
+tools: Tableau, Data Visualisation, Business Intelligence
 featured: false
 featured_order: 4
-category: Business Intelligence
 repository: https://public.tableau.com/app/profile/samhith.konidena/vizzes
 thumbnail: /assets/img/tableau-thumbnail.svg
+metrics:
+  - label: Dashboards
+    value: "2"
+  - label: Focus
+    value: "Business BI"
+  - label: Platform
+    value: "Tableau"
 demonstrates:
   - Interactive dashboard development
   - Business and comparative analysis
   - Geographic and trend visualisation
+  - Customer and marketing analysis
   - Communicating findings through visual storytelling
 role: Dashboard design, data exploration, visualisation, calculated fields, filtering, and business storytelling.
 lessons: Effective dashboards are less about showing everything in the data and more about making the right questions easier to explore.
 ---
 
-<section class="page-intro">
-  <p class="eyebrow">Tableau</p>
-  <h1>From data to decisions.</h1>
-  <p class="page-intro__lede">
-    I use Tableau to explore business questions, identify patterns, and communicate
-    insights through interactive dashboards.
-  </p>
-</section>
+## The question
 
-<section class="tableau-dashboards">
+**How can interactive dashboards make business performance easier to explore and understand?**
 
-  <div class="section-heading">
-    <div>
-      <p class="eyebrow">Selected dashboards</p>
-      <h2>Business questions, made visual.</h2>
-    </div>
-  </div>
+I built these Tableau dashboards as focused exercises in turning business datasets into visual tools that make patterns, comparisons, and potential areas of action easier to identify.
 
-  <div class="tableau-grid">
+Rather than treating visualisation as the final step after analysis, I used the dashboards themselves as part of the exploratory process — moving between business questions, measures, filters, and visual relationships to understand what the data was showing.
 
-    <!-- Global Superstore -->
-    <article class="tableau-card">
+## Global Superstore Sales
 
-      <div class="tableau-card__thumbnail">
-        <img
-          src="{{ '/assets/img/tableau-superstore-thumbnail.svg' | relative_url }}"
-          alt="Global Superstore Sales dashboard preview"
-        >
-      </div>
+![Global Superstore Sales dashboard preview]({{ '/assets/img/tableau-superstore-thumbnail.svg' | relative_url }})
 
-      <div class="tableau-card__body">
+This dashboard explores sales performance across product categories and geographies, with particular attention to how sales vary across countries and continents and how discounting relates to performance.
 
-        <div class="tableau-card__top">
-          <span class="tableau-card__number">01</span>
-          <span class="tableau-card__type">Sales analysis</span>
-        </div>
+The analysis brings together:
 
-        <h2>Global Superstore Sales</h2>
+- Product-category performance
+- Geographic sales coverage
+- Sales and discount relationships
+- Comparative performance across markets
 
-        <p class="tableau-card__meta">
-          Sales performance · Geographic analysis · Discount relationships
-        </p>
+[View Global Superstore Sales on Tableau Public](https://public.tableau.com/views/GlobalSuperstoreSalesVisualization/GlobalSuperstoreSalesVantageDashboard){: .text-link target="\_blank" rel="noopener noreferrer" }
 
-        <p>
-          An interactive sales analysis exploring product-category performance,
-          geographic sales coverage across countries and continents, and the
-          relationship between sales and discounting.
-        </p>
+## GrowEasy Marketing Insights
 
-        <a
-          class="text-link"
-          href="https://public.tableau.com/views/GlobalSuperstoreSalesVisualization/GlobalSuperstoreSalesVantageDashboard"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          View on Tableau Public <span aria-hidden="true">↗</span>
-        </a>
+![GrowEasy Marketing Insights dashboard preview]({{ '/assets/img/tableau-groweasy-thumbnail.svg' | relative_url }})
 
-      </div>
-    </article>
+This dashboard explores customer segmentation and marketing performance through customer value, education, spending behaviour, and purchasing patterns.
 
+The analysis focuses on:
 
-    <!-- GrowEasy -->
-    <article class="tableau-card">
+- Customer segmentation
+- Spending behaviour
+- Purchasing patterns
+- Customer value
+- Potential campaign targeting
 
-      <div class="tableau-card__thumbnail">
-        <img
-          src="{{ '/assets/img/tableau-groweasy-thumbnail.svg' | relative_url }}"
-          alt="GrowEasy Marketing Insights dashboard preview"
-        >
-      </div>
+[View GrowEasy Marketing Insights on Tableau Public](https://public.tableau.com/views/GrowEasyMarketingInsights/GrowEasyMarketingInsights){: .text-link target="\_blank" rel="noopener noreferrer" }
 
-      <div class="tableau-card__body">
+## What I worked with
 
-        <div class="tableau-card__top">
-          <span class="tableau-card__number">02</span>
-          <span class="tableau-card__type">Marketing analysis</span>
-        </div>
+Across the two dashboards, I worked with interactive filters, calculated fields, geographic visualisation, trend and comparative analysis, customer segmentation, and visual storytelling.
 
-        <h2>GrowEasy Marketing Insights</h2>
+The aim wasn't to fit every available measure onto a dashboard. It was to decide which views and interactions made the underlying business questions easier to investigate.
 
-        <p class="tableau-card__meta">
-          Customer segmentation · Spending behaviour · Campaign targeting
-        </p>
+## Project notes
 
-        <p>
-          A customer segmentation and marketing analysis examining customer value,
-          education, spending behaviour, and purchasing patterns to identify
-          potential segments for targeted campaigns.
-        </p>
+These dashboards form the business-intelligence component of my portfolio and complement my Python- and SQL-based analysis projects with interactive, stakeholder-facing visualisation.
 
-        <a
-          class="text-link"
-          href="https://public.tableau.com/views/GrowEasyMarketingInsights/GrowEasyMarketingInsights"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          View on Tableau Public <span aria-hidden="true">↗</span>
-        </a>
+The complete interactive versions are available on my Tableau Public profile.
 
-      </div>
-    </article>
-
-  </div>
-</section>
-
-<section class="tableau-capabilities">
-
-  <div class="section-heading">
-    <div>
-      <p class="eyebrow">What I work with</p>
-      <h2>Practical Tableau skills.</h2>
-    </div>
-  </div>
-
-  <div class="tableau-skill-list">
-    <span>Interactive dashboards</span>
-    <span>Calculated fields</span>
-    <span>Filters</span>
-    <span>Geographic visualisation</span>
-    <span>Trend analysis</span>
-    <span>Comparative analysis</span>
-    <span>Business storytelling</span>
-  </div>
-
-</section>
-
-<section class="tableau-profile">
-
-  <p class="eyebrow">Tableau Public</p>
-  <h2>Explore my visualisation work.</h2>
-
-<a
-class="button button--primary"
-href="https://public.tableau.com/app/profile/samhith.konidena/vizzes"
-target="\_blank"
-rel="noopener noreferrer"
-
->
-
-    View my Tableau Public profile <span aria-hidden="true">↗</span>
-
-  </a>
-
-</section>
+[View my Tableau Public profile](https://public.tableau.com/app/profile/samhith.konidena/vizzes){: .button .button--primary target="\_blank" rel="noopener noreferrer" }
