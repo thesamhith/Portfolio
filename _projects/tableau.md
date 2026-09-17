@@ -1,9 +1,7 @@
 ---
-category: Business Intelligence
 layout: default
 title: Tableau Dashboards
 permalink: /tableau/
-title: Tableau Dashboards
 name: tableau
 summary: A collection of interactive Tableau dashboards exploring sales, marketing, customer behaviour, and business performance.
 description: A selection of Tableau work focused on turning business questions into interactive dashboards and clear visual stories.
@@ -22,8 +20,6 @@ role: Dashboard design, data exploration, visualisation, calculated fields, filt
 lessons: Effective dashboards are less about showing everything in the data and more about making the right questions easier to explore.
 ---
 
----
-
 <section class="page-intro">
   <p class="eyebrow">Tableau</p>
   <h1>From data to decisions.</h1>
@@ -34,6 +30,7 @@ lessons: Effective dashboards are less about showing everything in the data and 
 </section>
 
 <section class="tableau-dashboards">
+
   <div class="section-heading">
     <div>
       <p class="eyebrow">Selected dashboards</p>
@@ -43,7 +40,9 @@ lessons: Effective dashboards are less about showing everything in the data and 
 
   <div class="tableau-grid">
 
+    <!-- Global Superstore -->
     <article class="tableau-card">
+
       <div class="tableau-card__thumbnail">
         <img
           src="{{ '/assets/img/tableau-superstore-thumbnail.svg' | relative_url }}"
@@ -52,6 +51,7 @@ lessons: Effective dashboards are less about showing everything in the data and 
       </div>
 
       <div class="tableau-card__body">
+
         <div class="tableau-card__top">
           <span class="tableau-card__number">01</span>
           <span class="tableau-card__type">Sales analysis</span>
@@ -71,16 +71,20 @@ lessons: Effective dashboards are less about showing everything in the data and 
 
         <a
           class="text-link"
-          href="https://public.tableau.com/views/GlobalSuperstoreSalesVisualization/GlobalSuperstoreSalesVantageDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+          href="https://public.tableau.com/views/GlobalSuperstoreSalesVisualization/GlobalSuperstoreSalesVantageDashboard"
           target="_blank"
           rel="noopener noreferrer"
         >
           View on Tableau Public <span aria-hidden="true">↗</span>
         </a>
+
       </div>
     </article>
 
+
+    <!-- GrowEasy -->
     <article class="tableau-card">
+
       <div class="tableau-card__thumbnail">
         <img
           src="{{ '/assets/img/tableau-groweasy-thumbnail.svg' | relative_url }}"
@@ -89,6 +93,7 @@ lessons: Effective dashboards are less about showing everything in the data and 
       </div>
 
       <div class="tableau-card__body">
+
         <div class="tableau-card__top">
           <span class="tableau-card__number">02</span>
           <span class="tableau-card__type">Marketing analysis</span>
@@ -108,12 +113,13 @@ lessons: Effective dashboards are less about showing everything in the data and 
 
         <a
           class="text-link"
-          href="https://public.tableau.com/views/GrowEasyMarketingInsights/GrowEasyMarketingInsights?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
+          href="https://public.tableau.com/views/GrowEasyMarketingInsights/GrowEasyMarketingInsights"
           target="_blank"
           rel="noopener noreferrer"
         >
           View on Tableau Public <span aria-hidden="true">↗</span>
         </a>
+
       </div>
     </article>
 
@@ -121,6 +127,7 @@ lessons: Effective dashboards are less about showing everything in the data and 
 </section>
 
 <section class="tableau-capabilities">
+
   <div class="section-heading">
     <div>
       <p class="eyebrow">What I work with</p>
@@ -137,9 +144,11 @@ lessons: Effective dashboards are less about showing everything in the data and 
     <span>Comparative analysis</span>
     <span>Business storytelling</span>
   </div>
+
 </section>
 
 <section class="tableau-profile">
+
   <p class="eyebrow">Tableau Public</p>
   <h2>Explore my visualisation work.</h2>
 
@@ -154,4 +163,5 @@ rel="noopener noreferrer"
     View my Tableau Public profile <span aria-hidden="true">↗</span>
 
   </a>
+
 </section>

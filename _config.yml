@@ -8,7 +8,7 @@ author:
   email: "thesamhith@gmail.com"
   linkedin: "https://www.linkedin.com/in/samhith-konidena-765b0112a"
   github: "https://github.com/thesamhith"
-  profile_image: { { site.author.profile_image | relative_url } }
+  profile_image: "/assets/img/profile.jpg"
 
 analytics:
   goatcounter_endpoint: "https://samhith-portfolio.goatcounter.com/count"
