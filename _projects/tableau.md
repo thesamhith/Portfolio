@@ -11,6 +11,13 @@ featured_order: 4
 category: Business Intelligence
 repository: https://public.tableau.com/app/profile/samhith.konidena/vizzes
 thumbnail: /assets/img/tableau-thumbnail.svg
+metrics:
+  - label: Visualization Vantage
+    value: "2 Dashboards"
+  - label: Visualization Count
+    value: "9 Plots / Charts"
+  - label: Visualization Context
+    value: "Sales / Marketing Intelligence"
 demonstrates:
   - Interactive dashboard development
   - Business and comparative analysis
@@ -19,15 +26,6 @@ demonstrates:
 role: Dashboard design, data exploration, visualisation, calculated fields, filtering, and business storytelling.
 lessons: Effective dashboards are less about showing everything in the data and more about making the right questions easier to explore.
 ---
-
-<section class="page-intro">
-  <p class="eyebrow">Tableau</p>
-  <h1>From data to decisions.</h1>
-  <p class="page-intro__lede">
-    I use Tableau to explore business questions, identify patterns, and communicate
-    insights through interactive dashboards.
-  </p>
-</section>
 
 <section class="tableau-dashboards">
   <div class="section-heading">
